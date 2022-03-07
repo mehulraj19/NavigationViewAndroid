@@ -13,6 +13,6 @@
         android:textSize="56sp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="Home" />
+        android:text="@string/home" />
 
 </FrameLayout>

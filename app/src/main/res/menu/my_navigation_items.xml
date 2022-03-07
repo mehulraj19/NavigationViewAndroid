@@ -7,44 +7,44 @@
 
         <item
             android:id="@+id/nav_home"
-            android:title="Home"
+            android:title="@string/home"
             android:icon="@drawable/ic_baseline_home_24"/>
         <item
             android:id="@+id/nav_message"
-            android:title="Message"
+            android:title="@string/message"
             android:icon="@drawable/ic_baseline_message_24"/>
         <item
             android:id="@+id/nav_sync"
-            android:title="Sync"
+            android:title="@string/sync"
             android:icon="@drawable/ic_baseline_sync_24"/>
         <item
             android:id="@+id/nav_trash"
-            android:title="Delete"
+            android:title="@string/delete"
             android:icon="@drawable/ic_baseline_delete_24"/>
         <item
             android:id="@+id/nav_settings"
-            android:title="Settings"
+            android:title="@string/settings"
             android:icon="@drawable/ic_baseline_settings_24"/>
-        <item android:title="Profile">
+        <item android:title="@string/profile">
             <menu>
                 <group android:checkableBehavior="single">
                     <item
                         android:id="@+id/nav_login"
-                        android:title="login"
+                        android:title="@string/login"
                         android:icon="@drawable/ic_baseline_login_24"/>
                 </group>
             </menu>
         </item>
-        <item android:title="Communicate">
+        <item android:title="@string/communicate">
             <menu>
                 <group android:checkableBehavior="single">
                     <item
                         android:id="@+id/nav_share_"
-                        android:title="share"
+                        android:title="@string/share"
                         android:icon="@drawable/ic_baseline_share_24"/>
                     <item
                         android:id="@+id/nav_rate"
-                        android:title="rate us"
+                        android:title="@string/rate_us"
                         android:icon="@drawable/ic_baseline_rate_review_24"/>
                 </group>
             </menu>
